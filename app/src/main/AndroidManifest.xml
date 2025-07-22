@@ -211,8 +211,8 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SECRET_CODE" />
-                <!-- 252746382 is the name of Clash Meta in T9 -->
-                <data android:scheme="android_secret_code" android:host="252746382" />
+                <!-- 11111111 is the name of Clash Meta in T9 -->
+                <data android:scheme="android_secret_code" android:host="11111111" />
             </intent-filter>
         </receiver>
     </application>

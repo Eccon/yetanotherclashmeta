@@ -35,7 +35,7 @@ subprojects {
         buildFeatures.buildConfig = true
         defaultConfig {
             if (isApp) {
-                applicationId = "com.github.metacubex.clash"
+                applicationId = "com.peopledailychina.activity"
             }
 
             project.name.let { name ->
@@ -95,7 +95,7 @@ subprojects {
                 resValue("string", "application_name", "@string/application_name_alpha")
 
                 if (isApp) {
-                    applicationIdSuffix = ".alpha"
+                    //applicationIdSuffix = ".alpha"
                 }
             }
 
@@ -110,7 +110,7 @@ subprojects {
                 resValue("string", "application_name", "@string/application_name_meta")
 
                 if (isApp) {
-                    applicationIdSuffix = ".meta"
+                    //applicationIdSuffix = ".meta"
                 }
             }
         }
